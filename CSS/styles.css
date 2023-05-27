@@ -2,6 +2,10 @@ body{
     background: black;
     padding: 10px;
 }
+/*
+body p{
+    color: green; Se le da mas prioridad a los otros selectores.
+} */
 
 header{
     display: flex;
@@ -17,6 +21,11 @@ header{
     height: 80px;
 }
 
+/*
+header h1{
+    color: red !important; Apesar de que luego lo cambio a blanco el logo, este no se cambia  
+}*/
+
 #titulo{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -28,6 +37,12 @@ main{
     flex-direction: column;
     padding: 0;
 }
+
+/*
+main div p{
+    color: blue; si tiene un id la etiqueta p le da mas prioridad al id que a la etiqueta HTML.
+}*/ 
+
 
 #Tema{
     font-family:'Times New Roman', Times, serif ;
@@ -57,6 +72,12 @@ main{
     font-size: 20px;
     color: white;
 }
+
+/*
+body{
+    background: red; Se aplican los cambios al final si lo hago con background
+}
+*/
 
 
 
